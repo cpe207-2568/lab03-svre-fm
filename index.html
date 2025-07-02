@@ -3,7 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Mali&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styletest.css" />
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <div class="layout">
+      <nav class="menu">
+        <div class="title">My Portfolio.</div>
+        <a href="index.html">
+          <button class="btnmain">
+            <i class="fa-solid fa-house"></i>
+            <span class="text">Home</span>
+          </button>
+        </a>
+        <a href="exper.html">
+          <button class="btn">
+            <i class="fa-solid fa-person-hiking"></i>
+            <span class="text">Experience</span>
+          </button>
+        </a>
+        <a href="gallery.html">
+          <button class="btn">
+            <i class="fa-solid fa-image"></i>
+            <span class="text">Gallery</span>
+          </button>
+        </a>
+        <a href="contact.html">
+          <button class="btn">
+            <i class="fa-solid fa-envelope"></i>
+            <span class="text">Contact</span>
+          </button>
+        </a>
+      </nav>
+      <main class="main">
+        <div class="profile">
+          <img src="img/pic.jpeg" class="img" />
+          <div class="name">
+            <h1>Natnicha sama</h1>
+            <p>
+              Hi, my name is I-Firm. I graduated from Chiangmai University.
+              Studied Computer Engineering.
+            </p>
+          </div>
+        </div>
+        <h3>Skill</h3>
+        
+        <div class="box">
+          <div class="content">
+            <img src="img/coding.gif" class="img1" />
+            <div class="detial">
+              <h4>Programming</h4>
+              <h5>I have experience coding HTML,CSS,PHP and C++</h5>
+            </div>
+          </div>
+        </div><br>
+         <div class="box">
+          <div class="content">
+            <img src="img/skill.gif" class="img1" />
+            <div class="detial">
+              <h4>Soft Skills</h4>
+              <h5>I possess strong leadership abilities in team-based projects and am capable of managing internal tasks efficiently and systematically.</h5>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
