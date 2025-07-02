@@ -415,7 +415,7 @@ h3 {
 .show span{
     color: rgba(132, 103, 90, 0.586); 
     font-size:15px; 
-    text-align:center;
+    margin-left: 30px;
 }
 
 .show a{
