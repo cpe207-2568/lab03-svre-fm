@@ -236,7 +236,8 @@ h3 {
 @media (max-width: 768px) {
   .layout{
     flex-direction: column; 
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
   }
 
   .title {
