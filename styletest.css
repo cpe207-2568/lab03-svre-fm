@@ -367,17 +367,62 @@ h3 {
   }
   
   .contact h1{
+    font-size: 40px;
     margin-top: 0px;
     text-align: center;
   }
 
-  .name span{
+  .contact p{
+    font-size: 20px;
+    margin-top: 0px;
     text-align: center;
   }
 
-  .contact img{
+
+
+  .contact{
     display: none;
   }
+
+  .contact-table {
+    font-size: 18px;
+    font-weight: 500px;
+    color:rgba(132, 103, 90, 0.774);
+    margin: 5px 0px 12px 30px;
+    border-spacing:10px 20px ;
+}
+
+.show{
+    font-family: "Mali", cursive;
+    display: flex;
+    flex-direction: column;
+    color: rgb(49, 40, 24)
+}
+.show h1{
+    font-size: clamp(30px, 2vw, 50px);
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.show span{
+    color: rgba(132, 103, 90, 0.586); 
+    font-size:15px; 
+    text-align:center;
+}
+
+.show a{
+    color: rgba(132, 103, 90, 0.459);
+}
+
+.mail{
+    color: rgba(132, 103, 90, 0.459);
+    font-size: 14px;
+    font-weight: 200px;
+}
 
 }
 
