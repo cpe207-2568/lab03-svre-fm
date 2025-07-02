@@ -134,7 +134,7 @@ a {
 
 .name a {
     color: rgba(132, 103, 90, 0.586);
-    font-size: 20px;
+    font-size: clamp(10px, 2vw, 20px);
     font-weight: 550;
     margin-top: 15px;
 }
